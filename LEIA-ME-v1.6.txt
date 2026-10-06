@@ -1,0 +1,10 @@
+Meu Treino v1.6 — Progressão Inteligente
+
+Novidades:
+- AUMENTAR CARGA: quando todas as séries chegam ao topo da faixa.
+- BUSCAR MAIS REPS: quando todas estão na faixa, mas ainda não chegaram ao topo.
+- MANTER CARGA: quando alguma série fica abaixo do mínimo.
+- REDUZIR CARGA: quando a maior parte das séries fica abaixo do mínimo em treinos consecutivos.
+- COMPLETAR SÉRIES: quando faltam dados para uma recomendação segura.
+- Tendência de desempenho: evolução, estável ou queda, quando houver histórico suficiente.
+- Mantém histórico, peso corporal, cronômetro, PWA e todos os dados já salvos no navegador.

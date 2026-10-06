@@ -5,3 +5,5 @@
 .progression-tip{grid-column:2/5;font-size:12px;line-height:1.35;color:#84cc16;margin-top:-1px;margin-bottom:7px;font-weight:700}
 
 .exercise-progression{font-size:13px;line-height:1.45;color:#84cc16;margin:10px 0 14px;font-weight:700}
+
+.exercise-progression{background:#0c1420;border:1px solid #263246;border-left:4px solid #84cc16;border-radius:12px;padding:11px 12px;margin:12px 0 14px}.exercise-progression span{display:block;font-size:11px;letter-spacing:.12em;color:#84cc16;margin-bottom:4px}.exercise-progression strong{display:block;font-size:13px;line-height:1.45;color:#d9f99d}.exercise-progression small{display:block;margin-top:6px;color:#9ca3af;font-size:10px;letter-spacing:0;font-weight:600}
