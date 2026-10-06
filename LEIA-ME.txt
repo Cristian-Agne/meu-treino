@@ -1,0 +1,20 @@
+MEU TREINO — PRIMEIRA VERSÃO
+
+TESTE RÁPIDO NO COMPUTADOR
+1. Extraia a pasta/ZIP.
+2. Para recursos básicos, abra index.html no navegador.
+3. Para instalação como app/PWA e funcionamento offline, publique a pasta em um site HTTPS (ex.: GitHub Pages, Vercel ou Netlify).
+
+PUBLICAR PELO GITHUB + VERCEL
+1. Crie uma conta no GitHub (github.com), se ainda não tiver.
+2. Crie um novo repositório, por exemplo: meu-treino.
+3. Envie os 5 arquivos: index.html, style.css, app.js, manifest.json e sw.js.
+4. Crie/acesse uma conta na Vercel (vercel.com) e escolha Add New > Project.
+5. Importe o repositório meu-treino.
+6. Como é um site estático, mantenha as configurações padrão e publique.
+7. Abra o endereço fornecido pela Vercel no celular.
+8. Android/Chrome: use o botão Instalar quando aparecer ou menu > Adicionar à tela inicial.
+9. iPhone/Safari: Compartilhar > Adicionar à Tela de Início.
+
+DADOS
+Os registros ficam no armazenamento local do navegador do aparelho. Nesta versão não há conta nem sincronização em nuvem. Limpar os dados do navegador pode apagar o histórico.
