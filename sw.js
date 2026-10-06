@@ -1,4 +1,4 @@
-const CACHE = 'meu-treino-v1-7';
+const CACHE = 'meu-treino-v1-7-1-splash-fix';
 const ASSETS = [
   '/',
   '/index.html',
@@ -6,7 +6,8 @@ const ASSETS = [
   '/app.js',
   '/manifest.webmanifest',
   '/icon-192.png',
-  '/icon-512.png'
+  '/icon-512.png',
+  '/splash-screen.png'
 ];
 
 self.addEventListener('install', event => {
