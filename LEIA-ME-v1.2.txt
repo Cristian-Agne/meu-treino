@@ -1,0 +1,9 @@
+Meu Treino v1.2
+
+Correções de instalação PWA:
+- manifesto padronizado em manifest.webmanifest
+- ícones PNG 192x192 e 512x512
+- registro explícito do Service Worker
+- cache do Service Worker mais robusto
+- cabeçalhos apropriados para Vercel
+- dados locais e treinos mantidos
