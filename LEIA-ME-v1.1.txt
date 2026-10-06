@@ -1,0 +1,9 @@
+MEU TREINO — versão 1.1
+
+Atualização para instalação como PWA:
+- ícones 192x192 e 512x512;
+- manifest com id, scope e ícones;
+- favicon/ícone para tela inicial;
+- service worker atualizado.
+
+Envie/substitua TODOS os arquivos desta pasta no repositório GitHub.
