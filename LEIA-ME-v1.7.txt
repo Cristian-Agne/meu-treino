@@ -1,0 +1,13 @@
+MEU TREINO v1.7
+
+Novidade principal: edição dos treinos diretamente no aplicativo.
+- Alterar nome do exercício
+- Adicionar e excluir exercícios
+- Alterar número de séries
+- Alterar faixa de repetições
+- Alterar nome e descrição dos treinos A/B/C/D
+- Restaurar a estrutura original dos treinos
+
+As personalizações são salvas localmente em cada aparelho. Assim, cada celular pode ter seus próprios treinos.
+O histórico já salvo é preservado ao excluir exercícios ou restaurar os treinos originais.
+A progressão inteligente continua funcionando com os exercícios personalizados.
