@@ -1,0 +1,11 @@
+Meu Treino v1.5
+
+Progressão por exercício usando todas as séries anteriores.
+
+Regras:
+- Só recomenda aumentar a carga quando TODAS as séries previstas foram registradas com a mesma carga e TODAS atingiram o topo da faixa de repetições.
+- Se alguma série ficou abaixo do mínimo, recomenda manter a carga e buscar o mínimo em todas.
+- Se faltou registrar alguma série, recomenda completar todas dentro da faixa antes de aumentar.
+- Se todas foram feitas dentro da faixa, mas nem todas chegaram ao máximo, recomenda manter a carga até atingir o topo em todas.
+
+A informação 'Anterior' continua aparecendo em cada série.
