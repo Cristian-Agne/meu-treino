@@ -1,0 +1,7 @@
+Meu Treino v1.4
+
+Nova função: sugestão automática de progressão.
+- Se atingir o topo da faixa de repetições, sugere pequeno aumento de carga.
+- Se ficar dentro da faixa, sugere manter a carga e aumentar repetições.
+- Se ficar abaixo da faixa, sugere manter a carga e buscar o mínimo de repetições.
+- A sugestão usa a última série registrada como referência.
