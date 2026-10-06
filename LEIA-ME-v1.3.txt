@@ -1,0 +1,8 @@
+Meu Treino v1.3
+
+Correções:
+- salva carga e repetições imediatamente ao concluir cada série;
+- mostra "Anterior: kg × reps" ao voltar ao exercício;
+- mantém referências de todos os treinos A/B/C/D sem sobrescrever os demais;
+- sair de um treino sem salvar não cria registro falso no histórico;
+- finalizar treino exige pelo menos uma série concluída.
