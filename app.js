@@ -98,3 +98,17 @@ function addExercise(k){workouts[k].ex.push(['Novo exercício',3,'8–12']);save
 function removeExercise(k,i){const name=workouts[k].ex[i][0];if(!confirm(`Excluir ${name} deste treino? O histórico já salvo será mantido.`))return;workouts[k].ex.splice(i,1);saveWorkouts();renderEditor()}
 function resetWorkouts(){if(!confirm('Restaurar os treinos A, B, C e D originais? Seu histórico continuará salvo.'))return;workouts=JSON.parse(JSON.stringify(defaultWorkouts));saveWorkouts();renderEditor()}
 let deferredPrompt;window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;$('#installBtn').hidden=false});$('#installBtn').onclick=async()=>{if(deferredPrompt){deferredPrompt.prompt();await deferredPrompt.userChoice;deferredPrompt=null;$('#installBtn').hidden=true}};if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');renderHome();
+
+
+function fazerBackup(){
+  const backup = {};
+  for(let i=0;i<localStorage.length;i++){
+    const chave = localStorage.key(i);
+    backup[chave] = localStorage.getItem(chave);
+  }
+  const arquivo = new Blob([JSON.stringify(backup,null,2)],{type:'application/json'});
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(arquivo);
+  link.download = 'meu-treino-backup.json';
+  link.click();
+  URL.revokeObjectURL(link.href);
