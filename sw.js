@@ -1,10 +1,10 @@
-const CACHE = 'meu-treino-v1-7-1-splash-fix';
+const CACHE = 'meu-treino-v1.7-2-icon-fix';
 const ASSETS = [
   '/',
   '/index.html',
   '/style.css',
   '/app.js',
-  '/manifest.webmanifest',
+  '/manifesto.webmanifesto',
   '/icon-192.png',
   '/icon-512.png',
   '/splash-screen.png'
