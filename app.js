@@ -100,15 +100,4 @@ function resetWorkouts(){if(!confirm('Restaurar os treinos A, B, C e D originais
 let deferredPrompt;window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;$('#installBtn').hidden=false});$('#installBtn').onclick=async()=>{if(deferredPrompt){deferredPrompt.prompt();await deferredPrompt.userChoice;deferredPrompt=null;$('#installBtn').hidden=true}};if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');renderHome();
 
 
-function fazerBackup(){
-  const backup = {};
-  for(let i=0;i<localStorage.length;i++){
-    const chave = localStorage.key(i);
-    backup[chave] = localStorage.getItem(chave);
-  }
-  const arquivo = new Blob([JSON.stringify(backup,null,2)],{type:'application/json'});
-  const link = document.createElement('a');
-  link.href = URL.createObjectURL(arquivo);
-  link.download = 'meu-treino-backup.json';
-  link.click();
-  URL.revokeObjectURL(link.href);
+
